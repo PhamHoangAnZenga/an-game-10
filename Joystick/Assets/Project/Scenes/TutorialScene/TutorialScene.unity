@@ -3042,18 +3042,18 @@ PrefabInstance:
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1058827756}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenGuide3
+      value: OpenHint
       objectReference: {fileID: 0}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TutorialController, Assembly-CSharp
+      value: GameController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -3178,6 +3178,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1250196565}
     m_Modifications:
+    - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
+      propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1058827756}
+    - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
+      propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenHint
+      objectReference: {fileID: 0}
     - target: {fileID: 4449636885408235201, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: m_Name
       value: Collectable_Star (2)
@@ -3356,18 +3364,18 @@ PrefabInstance:
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1058827756}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenGuide2
+      value: OpenHint
       objectReference: {fileID: 0}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: TutorialController, Assembly-CSharp
+      value: GameController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 805708113945876293, guid: 8fca96c91ec9849d9b1aa30aca44c15e, type: 3}
       propertyPath: _onActive.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
