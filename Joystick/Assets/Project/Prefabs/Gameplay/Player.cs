@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
 
             _rigidbody.MovePosition(_rigidbody.position + transform.forward * _joystick.Vertical * _moveSpeed);
 
-            transform.Rotate(Vector3.up, Mathf.Sign(_joystick.Vertical) * _joystick.Horizontal * _rotateSpeed, Space.Self);
+            transform.Rotate(Vector3.up, _joystick.Horizontal * _rotateSpeed, Space.Self);
         }
         else
         {

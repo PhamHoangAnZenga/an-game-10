@@ -4,6 +4,6 @@ public class CollectableStar : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        // gameObject.SetActive(false);
+        gameObject.SetActive(false);
     }
 }
