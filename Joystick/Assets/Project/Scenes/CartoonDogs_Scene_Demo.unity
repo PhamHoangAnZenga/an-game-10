@@ -2143,6 +2143,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5849806130494186427, guid: 542e611f75ff84d759b3a3bd8b71944b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5849806130494186427, guid: 542e611f75ff84d759b3a3bd8b71944b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7532349456743608316, guid: 542e611f75ff84d759b3a3bd8b71944b, type: 3}
       propertyPath: m_Name
       value: SafeArea
