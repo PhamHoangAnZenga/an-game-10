@@ -33,7 +33,7 @@ public class FinishLevelController : MonoBehaviour, IKeyBack
 
     public void Menu()
     {
-        Core.Load<MenuController>(sceneName: "HomeMenu");
+        // Core.Load<MenuController>(sceneName: "HomeMenu");
     }
 
     public void NextLevel()
